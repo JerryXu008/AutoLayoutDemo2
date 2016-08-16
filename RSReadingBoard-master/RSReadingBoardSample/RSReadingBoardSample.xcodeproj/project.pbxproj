@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0071D8018EBE286002843A6 /* RSReadingBoard_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0071D7F18EBE286002843A6 /* RSReadingBoard_iPad.xib */; };
+		D080275C18E2CFD70095F1FB /* Body.txt in Resources */ = {isa = PBXBuildFile; fileRef = D080275B18E2CFD70095F1FB /* Body.txt */; };
+		D08897C318E9126100CF14D5 /* UIImage+Fitness.m in Sources */ = {isa = PBXBuildFile; fileRef = D08897C218E9126100CF14D5 /* UIImage+Fitness.m */; };
+		D0C2E45E18E15B2400B784B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C2E45D18E15B2400B784B8 /* Foundation.framework */; };
+		D0C2E46018E15B2400B784B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C2E45F18E15B2400B784B8 /* CoreGraphics.framework */; };
+		D0C2E46218E15B2400B784B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C2E46118E15B2400B784B8 /* UIKit.framework */; };
+		D0C2E46818E15B2400B784B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0C2E46618E15B2400B784B8 /* InfoPlist.strings */; };
+		D0C2E46A18E15B2400B784B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C2E46918E15B2400B784B8 /* main.m */; };
+		D0C2E46E18E15B2400B784B8 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C2E46D18E15B2400B784B8 /* RSAppDelegate.m */; };
+		D0C2E47918E15B2400B784B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C2E47818E15B2400B784B8 /* Images.xcassets */; };
+		D0C2E4A418E170C200B784B8 /* RSReadingBoard_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0C2E4A018E170C200B784B8 /* RSReadingBoard_iPhone.xib */; };
+		D0C2E4A518E170C200B784B8 /* RSReadingBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C2E4A218E170C200B784B8 /* RSReadingBoard.m */; };
+		D0C2E4A818E174A600B784B8 /* RSArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C2E4A718E174A600B784B8 /* RSArticle.m */; };
+		E4F231251A70950000311ACF /* Body2.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4F231241A70950000311ACF /* Body2.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0071D7F18EBE286002843A6 /* RSReadingBoard_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RSReadingBoard_iPad.xib; path = ../RSReadingBoard_iPad.xib; sourceTree = "<group>"; };
+		D080275B18E2CFD70095F1FB /* Body.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Body.txt; sourceTree = "<group>"; };
+		D08897C118E9126100CF14D5 /* UIImage+Fitness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Fitness.h"; sourceTree = "<group>"; };
+		D08897C218E9126100CF14D5 /* UIImage+Fitness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Fitness.m"; sourceTree = "<group>"; };
+		D0C2E45A18E15B2400B784B8 /* RSReadingBoardSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSReadingBoardSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C2E45D18E15B2400B784B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0C2E45F18E15B2400B784B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0C2E46118E15B2400B784B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0C2E46518E15B2400B784B8 /* RSReadingBoardSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSReadingBoardSample-Info.plist"; sourceTree = "<group>"; };
+		D0C2E46718E15B2400B784B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0C2E46918E15B2400B784B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0C2E46B18E15B2400B784B8 /* RSReadingBoardSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSReadingBoardSample-Prefix.pch"; sourceTree = "<group>"; };
+		D0C2E46C18E15B2400B784B8 /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
+		D0C2E46D18E15B2400B784B8 /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
+		D0C2E47818E15B2400B784B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0C2E47F18E15B2400B784B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D0C2E4A018E170C200B784B8 /* RSReadingBoard_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RSReadingBoard_iPhone.xib; path = ../RSReadingBoard_iPhone.xib; sourceTree = "<group>"; };
+		D0C2E4A118E170C200B784B8 /* RSReadingBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSReadingBoard.h; path = ../RSReadingBoard.h; sourceTree = "<group>"; };
+		D0C2E4A218E170C200B784B8 /* RSReadingBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSReadingBoard.m; path = ../RSReadingBoard.m; sourceTree = "<group>"; };
+		D0C2E4A618E174A600B784B8 /* RSArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSArticle.h; path = ../RSArticle.h; sourceTree = "<group>"; };
+		D0C2E4A718E174A600B784B8 /* RSArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSArticle.m; path = ../RSArticle.m; sourceTree = "<group>"; };
+		E4F231241A70950000311ACF /* Body2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Body2.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C2E45718E15B2400B784B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C2E46018E15B2400B784B8 /* CoreGraphics.framework in Frameworks */,
+				D0C2E46218E15B2400B784B8 /* UIKit.framework in Frameworks */,
+				D0C2E45E18E15B2400B784B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D08897C018E9126100CF14D5 /* RSImageFitness */ = {
+			isa = PBXGroup;
+			children = (
+				D08897C118E9126100CF14D5 /* UIImage+Fitness.h */,
+				D08897C218E9126100CF14D5 /* UIImage+Fitness.m */,
+			);
+			name = RSImageFitness;
+			path = ../RSImageFitness;
+			sourceTree = "<group>";
+		};
+		D0C2E45118E15B2400B784B8 = {
+			isa = PBXGroup;
+			children = (
+				D0C2E49518E15BFB00B784B8 /* RSReadingBoard */,
+				D0C2E46318E15B2400B784B8 /* RSReadingBoardSample */,
+				D0C2E45C18E15B2400B784B8 /* Frameworks */,
+				D0C2E45B18E15B2400B784B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C2E45B18E15B2400B784B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C2E45A18E15B2400B784B8 /* RSReadingBoardSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C2E45C18E15B2400B784B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C2E45D18E15B2400B784B8 /* Foundation.framework */,
+				D0C2E45F18E15B2400B784B8 /* CoreGraphics.framework */,
+				D0C2E46118E15B2400B784B8 /* UIKit.framework */,
+				D0C2E47F18E15B2400B784B8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0C2E46318E15B2400B784B8 /* RSReadingBoardSample */ = {
+			isa = PBXGroup;
+			children = (
+				D0C2E46C18E15B2400B784B8 /* RSAppDelegate.h */,
+				D0C2E46D18E15B2400B784B8 /* RSAppDelegate.m */,
+				D0C2E47818E15B2400B784B8 /* Images.xcassets */,
+				D0C2E46418E15B2400B784B8 /* Supporting Files */,
+			);
+			path = RSReadingBoardSample;
+			sourceTree = "<group>";
+		};
+		D0C2E46418E15B2400B784B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4F231241A70950000311ACF /* Body2.txt */,
+				D080275B18E2CFD70095F1FB /* Body.txt */,
+				D0C2E46518E15B2400B784B8 /* RSReadingBoardSample-Info.plist */,
+				D0C2E46618E15B2400B784B8 /* InfoPlist.strings */,
+				D0C2E46918E15B2400B784B8 /* main.m */,
+				D0C2E46B18E15B2400B784B8 /* RSReadingBoardSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0C2E49518E15BFB00B784B8 /* RSReadingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D08897C018E9126100CF14D5 /* RSImageFitness */,
+				D0C2E4A018E170C200B784B8 /* RSReadingBoard_iPhone.xib */,
+				D0071D7F18EBE286002843A6 /* RSReadingBoard_iPad.xib */,
+				D0C2E4A118E170C200B784B8 /* RSReadingBoard.h */,
+				D0C2E4A218E170C200B784B8 /* RSReadingBoard.m */,
+				D0C2E4A618E174A600B784B8 /* RSArticle.h */,
+				D0C2E4A718E174A600B784B8 /* RSArticle.m */,
+			);
+			name = RSReadingBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C2E45918E15B2400B784B8 /* RSReadingBoardSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C2E48F18E15B2400B784B8 /* Build configuration list for PBXNativeTarget "RSReadingBoardSample" */;
+			buildPhases = (
+				D0C2E45618E15B2400B784B8 /* Sources */,
+				D0C2E45718E15B2400B784B8 /* Frameworks */,
+				D0C2E45818E15B2400B784B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSReadingBoardSample;
+			productName = RSReadingBoardSample;
+			productReference = D0C2E45A18E15B2400B784B8 /* RSReadingBoardSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C2E45218E15B2400B784B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = P.D.Q.;
+			};
+			buildConfigurationList = D0C2E45518E15B2400B784B8 /* Build configuration list for PBXProject "RSReadingBoardSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0C2E45118E15B2400B784B8;
+			productRefGroup = D0C2E45B18E15B2400B784B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C2E45918E15B2400B784B8 /* RSReadingBoardSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C2E45818E15B2400B784B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F231251A70950000311ACF /* Body2.txt in Resources */,
+				D0C2E4A418E170C200B784B8 /* RSReadingBoard_iPhone.xib in Resources */,
+				D0071D8018EBE286002843A6 /* RSReadingBoard_iPad.xib in Resources */,
+				D080275C18E2CFD70095F1FB /* Body.txt in Resources */,
+				D0C2E47918E15B2400B784B8 /* Images.xcassets in Resources */,
+				D0C2E46818E15B2400B784B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C2E45618E15B2400B784B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08897C318E9126100CF14D5 /* UIImage+Fitness.m in Sources */,
+				D0C2E46A18E15B2400B784B8 /* main.m in Sources */,
+				D0C2E46E18E15B2400B784B8 /* RSAppDelegate.m in Sources */,
+				D0C2E4A518E170C200B784B8 /* RSReadingBoard.m in Sources */,
+				D0C2E4A818E174A600B784B8 /* RSArticle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0C2E46618E15B2400B784B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C2E46718E15B2400B784B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0C2E48D18E15B2400B784B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0C2E48E18E15B2400B784B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0C2E49018E15B2400B784B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuanbiao Zheng (64972L7JVX)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSReadingBoardSample/RSReadingBoardSample-Prefix.pch";
+				INFOPLIST_FILE = "RSReadingBoardSample/RSReadingBoardSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "af5228ea-5e84-4aa6-8532-f28950cff089";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0C2E49118E15B2400B784B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuanbiao Zheng (64972L7JVX)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSReadingBoardSample/RSReadingBoardSample-Prefix.pch";
+				INFOPLIST_FILE = "RSReadingBoardSample/RSReadingBoardSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "af5228ea-5e84-4aa6-8532-f28950cff089";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C2E45518E15B2400B784B8 /* Build configuration list for PBXProject "RSReadingBoardSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C2E48D18E15B2400B784B8 /* Debug */,
+				D0C2E48E18E15B2400B784B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C2E48F18E15B2400B784B8 /* Build configuration list for PBXNativeTarget "RSReadingBoardSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C2E49018E15B2400B784B8 /* Debug */,
+				D0C2E49118E15B2400B784B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0C2E45218E15B2400B784B8 /* Project object */;
+}
